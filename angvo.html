@@ -32,11 +32,8 @@
     position: relative;
     left: 30px;
 }
-
-
 </style>
 <body>
-  
 <nav class="navbar navbar-light" style="background-color: orangered;">
     <div class="container px-0">
       <a class="navbar-brand  text-light fs-6 fw-bold" id="wq" href="#">
@@ -52,38 +49,60 @@
       </button>
       <div class="collapse navbar-collapse ms-md-5 ps-md-2" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
-          <li class="nav-item fs-5 fw-bold ">
+          <li class="nav-item fs-5 fw-normal ">
             <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item  fs-5 fw-bold">
+          <li class="nav-item  fs-5 fw-normal">
             <a class="nav-link text-dark" href="#">About</a>
           </li>
-          <li class="nav-item  fs-5 fw-bold">
+          <li class="nav-item  fs-5 fw-normal">
             <a class="nav-link text-dark" href="#">Service</a>
           </li>
-          <li class="nav-item  fs-5 fw-bold">
+          <li class="nav-item  fs-5 fw-normal">
             <a class="nav-link text-dark" href="#">Contact</a>
           </li>
-          <li class="nav-item  fs-5 fw-bold">
+          <li class="nav-item  fs-5 fw-normal">
             <a class="nav-link text-dark" href="#">log in</a>
           </li>
-          <li class="nav-item  fs-5 fw-bold">
+          <li class="nav-item  fs-5 fw-normal">
             <a class="nav-link text-dark" href="#">Register</a>
           </li>
-          <li class="nav-item  fs-5 fw-bold">
+          <li class="nav-item  fs-5 fw-normal">
             <a class="nav-link text-dark" href="#">
                 <i class="fa-sharp fa-solid fa-cart-shopping"></i>
             </a>
           </li>
         </ul>
-          <button class="btn btn-primary text-light fw-bold me-auto mb-2 mb-lg-0" type="submit">LET'S GET STARTED</button>
-
+          <button class="btn btn-primary text-light fw-bold me-auto mb-2 mb-lg-0 p-3" type="submit">LET'S GET STARTED</button>
       </div>
     </div>
   </nav>
-
-
-  
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.angvo.com/public/angvo/assets/images/slider_images/slider_1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.angvo.com/public/angvo/assets/images/slider_images/slider_3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.angvo.com/public/angvo/assets/images/slider_images/slider_4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
