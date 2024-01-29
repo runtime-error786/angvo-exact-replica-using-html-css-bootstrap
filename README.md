@@ -1,5 +1,5 @@
 Description:
-In that project i make clone of angvo website
+In that project i make clone of angvo website/
 Setup:
 make that file in one folder and open in chrome
 ![image](https://github.com/runtime-error786/angvo-website/assets/123109871/aa593e10-5dec-4cca-bd71-7f1db08574a1)
