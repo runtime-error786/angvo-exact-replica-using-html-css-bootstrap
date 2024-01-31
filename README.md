@@ -1,7 +1,8 @@
 Description:  
 In that project, I made a clone of the Angvo website.
 
-Setup:  
+Setup: 
+git clone https://github.com/your-username/folder_name.git
 Make sure all files are in one folder and open the project in Chrome.
 
 ![image](https://github.com/runtime-error786/angvo-website/assets/123109871/aa593e10-5dec-4cca-bd71-7f1db08574a1)
